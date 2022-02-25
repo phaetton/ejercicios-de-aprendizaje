@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con teclas</title>
+</head>
+<body>
+
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+        <p>Mueve las flechas del teclado para dibujar</p>
+    <script src="teclas.js"></script>
+
+    <script>
+        var contador = 2;
+var na = "na";
+while(contador)
+{
+    na += na;
+    contador -= 1;
+}
+console.log(na + " Freddy ")
+
+
+var billetes = [ [ 1 , 2 , 3 ] ,
+              [ 4 , 5 , 6 ] ,
+              [ 7 , 8 , 9 ] ];
+console.log(billetes[1][2])
+
+var a = 10;
+var b = "12";
+var c = b + a;
+console.log(typeof(c))
+
+
+var paki = {
+    nombre: "Pakiman",
+    ataque: 101
+};
+paki.ataque = paki.ataque * 2;
+console.log(paki.ataque)
+
+z = Math.ceil(4.64);
+console.log(z)
+
+//declarar(); console.log(variable);
+
+function pakiman(vida)
+{
+    vida = vida + vida;
+    vida++;
+    return vida;
+}
+var vida = 2;
+vida = pakiman(vida);
+
+console.log("vida",vida)
+
+/* 
+console.log(variable);
+function declarar() { variable = 12; } */
+
+var entrar = 0;
+var altura = 101;
+if( altura > 100 || altura < 50){
+    entrar = 1;
+}
+else if(altura > 60 || altura < 40){
+    entrar = 2;
+}
+console.log(entrar);
+    </script>
+</body>
+</html>

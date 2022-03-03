@@ -3,8 +3,6 @@ imagenes["cauchin"] = "vaca.png";
 imagenes["pokacho"] = "pollo.png";
 imagenes["tocinauro"] = "cerdo.png";
 
-
-
 /* pokacho.mostrar();
 cauchin.mostrar();
 tocinauro.mostrar();

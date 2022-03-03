@@ -22,7 +22,5 @@ class Pakiman {
         document.write("vida" + this.vida + "<br>");
         document.write("ataque" + this.ataque + "<br> <hr>");
         document.write("</p>");
-
-
     }
 }
